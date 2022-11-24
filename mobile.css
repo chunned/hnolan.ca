@@ -1,46 +1,50 @@
 body{
     font-family: 'Space Mono', monospace;
-    margin:3em;
+    background-color: #242038;
 }
 
 #title{
     font-size:100px;
-    position:static;
-    right:5%;
+    position:fixed;
+    left:50%;
+    transform: translate(-50%, 0%);
+    color: #725AC1;
 }
 
 .logo{
-    color:black;
+    color:#8D86C9;
 }
 
 #discord{
     font-size:25px;
+    color: #725AC1;
     position:fixed;
-    top:3em;
-    right: 3em;
+    left:50%;
+    top:20%;
+    transform: translate(-50%, 0%);
 }
 
 #github{
     position: fixed;
-    top: 33%;
-    left: 33%
+    top: 40%;
+    left: 20%
 }
 
 #linkedin{
     position: fixed;
-    top: 33%;
-    right: 33%;
+    top: 40%;
+    right: 20%;
 }
 
 #soundcloud{
     position: fixed;
-    bottom: 33%;
-    left: 33%;
+    bottom: 20%;
+    left: 20%;
 
 }
 
 #bandcamp{
     position: fixed;
-    bottom: 33%;
-    right: 33%;
+    bottom: 20%;
+    right: 20%;
 }
