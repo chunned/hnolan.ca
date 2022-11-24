@@ -1,0 +1,46 @@
+body{
+    font-family: 'Space Mono', monospace;
+    margin:3em;
+}
+
+#title{
+    font-size:100px;
+    position:static;
+    right:5%;
+}
+
+.logo{
+    color:black;
+}
+
+#discord{
+    font-size:25px;
+    position:fixed;
+    top:3em;
+    right: 3em;
+}
+
+#github{
+    position: fixed;
+    top: 33%;
+    left: 33%
+}
+
+#linkedin{
+    position: fixed;
+    top: 33%;
+    right: 33%;
+}
+
+#soundcloud{
+    position: fixed;
+    bottom: 33%;
+    left: 33%;
+
+}
+
+#bandcamp{
+    position: fixed;
+    bottom: 33%;
+    right: 33%;
+}
