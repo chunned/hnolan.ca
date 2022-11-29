@@ -1,50 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Space Mono', monospace;
-    background-color: #242038;
+    background-color: #344e41;
+}
+
+.navbar {
+    color: #8D86C9;
+    position: static;
 }
 
 #title{
     font-size:100px;
     position:fixed;
     left:50%;
+    top:50px;
     transform: translate(-50%, 0%);
-    color: #725AC1;
+    
+    color: #D8A7CA
 }
+
+#title2 {
+    font-size:100px;
+    position: fixed;
+    top: 45px;
+    left: 49.3%;
+    transform: translate(-50%, 0%);
+}
+
+#title3 {
+    font-size:100px;
+    position: fixed;
+    top: 48px;
+    left: 49.5%;
+    transform: translate(-50%, 0%);
+    color:#73A6AD;
+}
+
+#contact{
+    font-size:21px;
+    text-align:center;
+    position:fixed;
+    left:50%;
+    top:25%;
+    transform: translate(-50%, 0%);
+}
+
 
 .logo{
     color:#8D86C9;
 }
 
-#discord{
-    font-size:25px;
-    color: #725AC1;
-    position:fixed;
-    left:50%;
-    top:20%;
-    transform: translate(-50%, 0%);
+.square {
+    margin: auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    position: absolute;
+    bottom: 0%;
 }
 
-#github{
-    position: fixed;
-    top: 40%;
-    left: 20%
-}
-
-#linkedin{
-    position: fixed;
-    top: 40%;
-    right: 20%;
-}
-
-#soundcloud{
-    position: fixed;
-    bottom: 20%;
-    left: 20%;
-
-}
-
-#bandcamp{
-    position: fixed;
-    bottom: 20%;
-    right: 20%;
+.box{
+    margin:auto;
+    padding:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
 }
