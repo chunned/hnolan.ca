@@ -10,6 +10,11 @@ body {
     background-color: #344e41;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .navbar {
     color: #8D86C9;
     position: static;
@@ -48,6 +53,15 @@ body {
     right: 3em;
 }
 
+#blog {
+    font-size: 75px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+}
+
 .logo {
     color: #8D86C9;
 }
@@ -55,7 +69,6 @@ body {
 .square {
     margin: auto;
     width: 100%;
-    ;
     height: 400px;
     display: grid;
     grid-template-columns: 50% 50%;
