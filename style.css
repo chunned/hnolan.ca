@@ -1,0 +1,18 @@
+html {
+    background-color: #17181E;
+    font-family: monospace;
+    font-size: 20px;
+    color: #dadada;
+}
+
+a {
+    text-decoration: none;
+    color: #878E93;
+}
+
+.home {
+    border: 1px solid black;
+    margin: 5%;
+    padding: 5%;
+}
+
